@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    text-decoration: none;
+    margin: 0;
+}
+
+.btn {
+
+
+    padding: 15px 45px;
+    background-color: rgb(241, 0, 0);
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+body {
+    height: 100vh;
+    background: url("../img/ii.png") no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 25px;
+    color: rgb(241, 0, 0);
+}
+
+.block {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.inpt {
+    width: 250px;
+    height: 40px;
+}
+
+p,
+h3 {
+    text-align: center;
+    font-size: 28px;
+    color: rgb(241, 0, 0);
+    margin-top: 20px;
+}
+
+.set {
+    padding: 10px 30px;
+    color: white;
+    background-color: rgb(241, 0, 0);
+    border-radius: 10px;
+    position: relative;
+    left: 45%;
+    top: 100px;
+    display: none;
+}
+
+.scream {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/io.png") no-repeat;
+    background-size: cover;
+    display: none;
+    text-align: center;
+
+}
+
+span {
+    font-size: 28px;
+    font-weight: 700px;
+    text-align: center;
+    padding-top: 150px;
+    color: red;
+    animation: sp ease 1s infinite;
+    
+}
+
+@keyframes sp {
+    0% {
+        position: relative;
+        top: 0;
+        left: 0;
+        font-size: 70px;
+        color: aqua;
+
+    }
+
+    50% {
+        position: relative;
+        top: 100px;
+        left: 50px;
+        font-size: 100px;
+        color: aquamarine;
+    }
+
+    100% {
+        position: relative;
+        top: 0;
+        left: 0;
+        font-size: 150px;
+        color: azure;
+    }
+
+}
